@@ -1,3 +1,7 @@
+body {
+    font-family: "Spline Sans Mono", monospace;
+}
+
 .hero {
     padding: 200px;
     text-align: center;
@@ -11,10 +15,12 @@
 
 .hero h2 {
     font-size: 24px;
+    font-weight: 400;
 }
 
 .hero p {
     font-size: 36px;
+    font-weight: 700;
     padding: 0;
     margin: 0;
 }
@@ -22,11 +28,12 @@
 .hero a {
     font-size: 18px;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #f8b400;
     color: #fff;
     border-radius: 4px;
     padding: 15px 30px;
+    font-family: "Poppins", sans-serif;
 }
 
 .homepage-project-title {
