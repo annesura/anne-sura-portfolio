@@ -1,11 +1,18 @@
+:root {
+    --primary-color: #f8b400;
+    --secondary-color: #faf5e4;
+    --primary-font: "Spline Sans Mono", monospace;
+    --secondary-font: "Poppins", sans-serif;
+}
+
 body {
-    font-family: "Spline Sans Mono", monospace;
+    font-family: var(--primary-font);
 }
 
 .hero {
     padding: 200px;
     text-align: center;
-    background-color: #faf5e4;
+    background-color: var(--secondary-color);
 }
 
 .hero h1 {
@@ -29,11 +36,11 @@ body {
     font-size: 18px;
     line-height: 1.5;
     font-weight: 500;
-    background-color: #f8b400;
+    background-color: var(--primary-color);
     color: #fff;
     border-radius: 4px;
     padding: 15px 30px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--secondary-font);
 }
 
 .homepage-project-title {
@@ -41,4 +48,31 @@ body {
     font-size: 20px;
     line-height: 1.5;
     padding: 70px;
+}
+
+.homepage-project-content img {
+    border-radius: 8px;
+}
+
+.homepage-project-content h2 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.5;  
+}
+
+.homepage-project-content p {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.homepage-project-content a {
+    border: 2px solid var(--primary-color);
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-family: var(--secondary-font);
+
 }
