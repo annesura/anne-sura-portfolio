@@ -9,6 +9,10 @@ body {
     font-family: var(--primary-font);
 }
 
+nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
 
 
 .hero {
@@ -139,7 +143,7 @@ body {
     }
 
     .hero h1 {
-        font-size: 60px;
+        font-size: 54px;
     }
 
     .hero h2 {
@@ -160,5 +164,10 @@ body {
 
     .homepage-project-content h2 {
         font-size: 40px;
+    }
+
+    .work-inquiry {
+        padding: 15px 30px;
+        text-align: center;
     }
 }
