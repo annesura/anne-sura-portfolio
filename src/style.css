@@ -160,6 +160,17 @@ nav .nav-link:hover {
     margin-bottom: 15px;
 }
 
+.contact-content {
+    padding: 100px;
+}
+
+.contact-content a {
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
 .work-inquiry {
     background-color: var(--secondary-color);
     padding: 30px 60px;
@@ -233,6 +244,11 @@ nav .nav-link:hover {
 
     .work-header {
         padding: 15px;
+    }
+
+    .contact-content {
+        padding: 15px;
+        text-align: center;
     }
 
     .work-inquiry {
