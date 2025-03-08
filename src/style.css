@@ -136,6 +136,30 @@ nav .nav-link:hover {
     vertical-align: middle;
 }
 
+.work-header {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.work-header p, .work-content p {
+    font-family: var(--secondary-font);
+}
+
+.work-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.work-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.work-content img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
 .work-inquiry {
     background-color: var(--secondary-color);
     padding: 30px 60px;
@@ -204,6 +228,10 @@ nav .nav-link:hover {
     }
 
     .about-container {
+        padding: 15px;
+    }
+
+    .work-header {
         padding: 15px;
     }
 
